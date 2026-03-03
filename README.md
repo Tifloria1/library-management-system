@@ -30,8 +30,8 @@ Library_Management_app_FrontEnd/ # Angular frontend
 ### 1) Backend (Spring Boot)
 1. Create a MySQL database (example): `library_db`
 2. Update `application.properties` (DB username/password)
-3. Run:
-```bash
+3. Run
+
 cd Library_Management_app
 mvn spring-boot:run
 
@@ -39,9 +39,11 @@ Backend runs on: http://localhost:8083
 
 Backend runs on: http://localhost:8083
 
+```bash
 cd Library_Management_app_FrontEnd
 npm install
 ng serve
+```
 
 Frontend runs on: http://localhost:4200
 
